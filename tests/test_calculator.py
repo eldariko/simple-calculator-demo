@@ -37,7 +37,7 @@ def test_add(calc):
         assert calc.add(0, 0) == 0
 
 
-@allure.feature("Calculator Operations")
+@allure.feature("Calculator Operation")
 @allure.story("Subtraction")
 @allure.severity(allure.severity_level.NORMAL)
 @allure.description("Test the subtraction operation with various inputs")
