@@ -53,7 +53,7 @@ def test_subtract(calc):
         assert calc.subtract(0, 5) == -5
 
 
-@allure.feature("Calculator Operations")
+@allure.feature("Calculator Operation")
 @allure.story("Multiplication")
 @allure.severity(allure.severity_level.NORMAL)
 @allure.description("Test the multiplication operation with various inputs")
